@@ -1,11 +1,11 @@
 typedef struct Vertice{
 	char dato;
-	struct Vertice* sig;
+	struct Vertice* siguiente;
 	struct Arista* lista;
 }Vertice;
 
 typedef struct Arista{
-	struct Arista* sig;
+	struct Arista* siguiente;
 	struct Vertice* destino;
 }Arista;
 
