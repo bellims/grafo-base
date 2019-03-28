@@ -11,4 +11,4 @@ typedef struct Arista{
 
 typedef struct Grafo{
 	struct Vertice* inicio;
-}Grafo;
+}GrafoMetro;
